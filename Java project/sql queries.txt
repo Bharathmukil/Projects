@@ -1,0 +1,30 @@
+CREATE TABLE `login1` ( `username` varchar(30) DEFAULT NULL, `password` varchar(30) DEFAULT NULL ) ENGINE=MyISAM DEFAULT CHARSET=latin1
+CREATE TABLE `JOlogin` ( `username` varchar(30) DEFAULT NULL, `password` varchar(30) DEFAULT NULL ) ENGINE=MyISAM DEFAULT CHARSET=latin1
+CREATE TABLE `AdminLogin` ( `username` varchar(30) DEFAULT NULL, `password` varchar(30) DEFAULT NULL ) ENGINE=MyISAM DEFAULT CHARSET=latin1
+​
+CREATE TABLE `LHLogin` ( `username` varchar(30) DEFAULT NULL, `password` varchar(30) DEFAULT NULL ) ENGINE=MyISAM DEFAULT CHARSET=latin1
+CREATE TABLE merits (section varchar(5),points int)
+CREATE TABLE License (License_No varchar(20),Name varchar(20),Gender varchar(6),DOB date,Address varchar(20),Phone int,Merit_points int)
+CREATE TABLE `RTO` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `name` varchar(30) DEFAULT NULL,
+  `gender` varchar(30) DEFAULT NULL,
+  `age` varchar(30) DEFAULT NULL,
+  `office_ID` varchar(30) DEFAULT NULL,
+  `user` varchar(30) DEFAULT NULL,
+  `login` varchar(30) DEFAULT NULL,
+  `phone` varchar(30) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
+
+CREATE TABLE `JudicialOfficer` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `name` varchar(30) DEFAULT NULL,
+  `gender` varchar(30) DEFAULT NULL,
+  `age` varchar(30) DEFAULT NULL,
+  `office_ID` varchar(30) DEFAULT NULL,
+  `user` varchar(30) DEFAULT NULL,
+  `login` varchar(30) DEFAULT NULL,
+  `phone` varchar(30) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
